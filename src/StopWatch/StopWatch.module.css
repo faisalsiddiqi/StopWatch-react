@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(43, 43, 43);
+}
+
+.stop_watch_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+
+.stopwatch{
+  color: rgb(255, 149, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  padding: 20px;
+  width:400px ;
+  font-family: impact , sans-serif;
+  transition: 0.20s ease-in;
+  &:hover{
+    padding: 22px 40px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+
+    button{
+       background-color: rgba(255, 149, 0, 0.8);
+       color:white;
+       border:none;
+       border-radius: 10px;
+       padding: 10px 20px;
+       font-family: arial , sans-serif;
+       transition: 0.15s ease-in;
+       font-size: 12px;
+       color: rgb(43, 43, 43);
+       &:hover{
+        background-color: rgb(255, 149, 0);
+       }
+       &:active{
+        font-size: 11px;
+
+       }
+
+    }
+  }
+}
